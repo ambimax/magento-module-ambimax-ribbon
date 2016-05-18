@@ -1,0 +1,38 @@
+.ambimax-ribbon {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.ambimax-ribbon > span {
+    background:#242727;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 2px 5px;
+    background: #8acdbe;
+}
+.ambimax-ribbon.tick > span:before {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 4px 0 0;
+    border-color: #8acdbe transparent transparent transparent;
+}
+.ambimax-ribbon > span.sale:before{ border-color: #f67881 transparent transparent transparent;  }
+.ambimax-ribbon > span.sale { background: #f67881; }
+.ambimax-ribbon > span.promotion:before, .ambimax-ribbon > span.aktion:before { border-color: #7cb5f6 transparent transparent transparent;  }
+.ambimax-ribbon > span.promotion, .ambimax-ribbon > span.promotion { background: #7cb5f6; }
+
+
+/*.ambimax-ribbon.label-indent > span.sale {top: 30px;}*/
+
+/*.products-list .ambimax-ribbon {left: 30px; right: auto;}*/
+/*.products-list .ambimax-ribbon.label-indent {left: 60px;}*/
+
+/*.products-list .ambimax-ribbon .sale {float:right;}*/

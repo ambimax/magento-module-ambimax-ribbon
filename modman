@@ -1,0 +1,5 @@
+src/app/code/community/Ambimax/Ribbon                           app/code/community/Ambimax/Ribbon
+src/app/design/frontend/base/default/layout/ambimax/ribbon.xml  app/design/frontend/base/default/layout/ambimax/ribbon.xml
+src/app/etc/modules/Ambimax_Ribbon.xml                          app/etc/modules/Ambimax_Ribbon.xml
+src/app/locale/de_DE/Ambimax_Ribbon.csv                         app/locale/de_DE/Ambimax_Ribbon.csv
+src/skin/frontend/base/default/css/ambimax/ribbon.css           skin/frontend/base/default/css/ambimax/ribbon.css
